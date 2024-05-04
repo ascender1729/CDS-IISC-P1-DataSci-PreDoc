@@ -207,93 +207,93 @@ For the multi-label classification task of predicting a movie's genres, the Clas
 
 <table>
   <tr>
-    <td>Confusion Matrix for Genre 1</td>
-    <td>Confusion Matrix for Genre 2</td>
-    <td>Confusion Matrix for Genre 3</td>
+    <td>1. Game Show</td>
+    <td>2. Crime</td>
+    <td>3. Animation</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_1.png" alt="Confusion Matrix 1" width="300"/></td>
-    <td><img src="images/confusion_matrix_2.png" alt="Confusion Matrix 2" width="300"/></td>
-    <td><img src="images/confusion_matrix_3.png" alt="Confusion Matrix 3" width="300"/></td>
+    <td><img src="images/1.png" alt="Game Show" width="300"/></td>
+    <td><img src="images/2.png" alt="Crime" width="300"/></td>
+    <td><img src="images/3.png" alt="Animation" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 4</td>
-    <td>Confusion Matrix for Genre 5</td>
-    <td>Confusion Matrix for Genre 6</td>
+    <td>4. Comedy</td>
+    <td>5. Short</td>
+    <td>6. Documentary</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_4.png" alt="Confusion Matrix 4" width="300"/></td>
-    <td><img src="images/confusion_matrix_5.png" alt="Confusion Matrix 5" width="300"/></td>
-    <td><img src="images/confusion_matrix_6.png" alt="Confusion Matrix 6" width="300"/></td>
+    <td><img src="images/4.png" alt="Comedy" width="300"/></td>
+    <td><img src="images/5.png" alt="Short" width="300"/></td>
+    <td><img src="images/6.png" alt="Documentary" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 7</td>
-    <td>Confusion Matrix for Genre 8</td>
-    <td>Confusion Matrix for Genre 9</td>
+    <td>7. Drama</td>
+    <td>8. Film-Noir</td>
+    <td>9. Music</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_7.png" alt="Confusion Matrix 7" width="300"/></td>
-    <td><img src="images/confusion_matrix_8.png" alt="Confusion Matrix 8" width="300"/></td>
-    <td><img src="images/confusion_matrix_9.png" alt="Confusion Matrix 9" width="300"/></td>
+    <td><img src="images/7.png" alt="Drama" width="300"/></td>
+    <td><img src="images/8.png" alt="Film-Noir" width="300"/></td>
+    <td><img src="images/9.png" alt="Music" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 10</td>
-    <td>Confusion Matrix for Genre 11</td>
-    <td>Confusion Matrix for Genre 12</td>
+    <td>10. Thriller</td>
+    <td>11. Romance</td>
+    <td>12. News</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_10.png" alt="Confusion Matrix 10" width="300"/></td>
-    <td><img src="images/confusion_matrix_11.png" alt="Confusion Matrix 11" width="300"/></td>
-    <td><img src="images/confusion_matrix_12.png" alt="Confusion Matrix 12" width="300"/></td>
+    <td><img src="images/10.png" alt="Thriller" width="300"/></td>
+    <td><img src="images/11.png" alt="Romance" width="300"/></td>
+    <td><img src="images/12.png" alt="News" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 13</td>
-    <td>Confusion Matrix for Genre 14</td>
-    <td>Confusion Matrix for Genre 15</td>
+    <td>13. Musical</td>
+    <td>14. Action</td>
+    <td>15. Adventure</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_13.png" alt="Confusion Matrix 13" width="300"/></td>
-    <td><img src="images/confusion_matrix_14.png" alt="Confusion Matrix 14" width="300"/></td>
-    <td><img src="images/confusion_matrix_15.png" alt="Confusion Matrix 15" width="300"/></td>
+    <td><img src="images/13.png" alt="Musical" width="300"/></td>
+    <td><img src="images/14.png" alt="Action" width="300"/></td>
+    <td><img src="images/15.png" alt="Adventure" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 16</td>
-    <td>Confusion Matrix for Genre 17</td>
-    <td>Confusion Matrix for Genre 18</td>
+    <td>16. War</td>
+    <td>17. Mystery</td>
+    <td>18. Fantasy</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_16.png" alt="Confusion Matrix 16" width="300"/></td>
-    <td><img src="images/confusion_matrix_17.png" alt="Confusion Matrix 17" width="300"/></td>
-    <td><img src="images/confusion_matrix_18.png" alt="Confusion Matrix 18" width="300"/></td>
+    <td><img src="images/16.png" alt="War" width="300"/></td>
+    <td><img src="images/17.png" alt="Mystery" width="300"/></td>
+    <td><img src="images/18.png" alt="Fantasy" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 19</td>
-    <td>Confusion Matrix for Genre 20</td>
-    <td>Confusion Matrix for Genre 21</td>
+    <td>19. Reality TV</td>
+    <td>20. Biography</td>
+    <td>21. Family</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_19.png" alt="Confusion Matrix 19" width="300"/></td>
-    <td><img src="images/confusion_matrix_20.png" alt="Confusion Matrix 20" width="300"/></td>
-    <td><img src="images/confusion_matrix_21.png" alt="Confusion Matrix 21" width="300"/></td>
+    <td><img src="images/19.png" alt="Reality TV" width="300"/></td>
+    <td><img src="images/20.png" alt="Biography" width="300"/></td>
+    <td><img src="images/21.png" alt="Family" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 22</td>
-    <td>Confusion Matrix for Genre 23</td>
-    <td>Confusion Matrix for Genre 24</td>
+    <td>22. Western</td>
+    <td>23. Horror</td>
+    <td>24. Sci-Fi</td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_22.png" alt="Confusion Matrix 22" width="300"/></td>
-    <td><img src="images/confusion_matrix_23.png" alt="Confusion Matrix 23" width="300"/></td>
-    <td><img src="images/confusion_matrix_24.png" alt="Confusion Matrix 24" width="300"/></td>
+    <td><img src="images/22.png" alt="Western" width="300"/></td>
+    <td><img src="images/23.png" alt="Horror" width="300"/></td>
+    <td><img src="images/24.png" alt="Sci-Fi" width="300"/></td>
   </tr>
   <tr>
-    <td>Confusion Matrix for Genre 25</td>
-    <td>Confusion Matrix for Genre 26</td>
+    <td>25. History</td>
+    <td>26. Sport</td>
     <td></td>
   </tr>
   <tr>
-    <td><img src="images/confusion_matrix_25.png" alt="Confusion Matrix 25" width="300"/></td>
-    <td><img src="images/confusion_matrix_26.png" alt="Confusion Matrix 26" width="300"/></td>
+    <td><img src="images/25.png" alt="History" width="300"/></td>
+    <td><img src="images/26.png" alt="Sport" width="300"/></td>
     <td></td>
   </tr>
 </table>
