@@ -188,7 +188,6 @@ For the multi-label classification task of predicting a movie's genres, the Clas
    - The Classifier Chain was evaluated using several key metrics, including F1 score, accuracy, precision, recall, and Hamming loss.
    - These metrics provided a comprehensive view of the model's effectiveness in predicting multiple genres simultaneously.
 
-Below is the updated "Results" section, incorporating the new values and table for the evaluation metrics. Additionally, the section contains the necessary HTML to display all 26 confusion matrix images for the different genres.
 
 
 ## Results
