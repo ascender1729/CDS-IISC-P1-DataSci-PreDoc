@@ -190,7 +190,8 @@ For the multi-label classification task of predicting a movie's genres, the Clas
 
 Below is the updated "Results" section, incorporating the new values and table for the evaluation metrics. Additionally, the section contains the necessary HTML to display all 26 confusion matrix images for the different genres.
 
-### Results
+
+## Results
 
 ### Release Year Prediction
 
@@ -207,9 +208,19 @@ Below is the updated "Results" section, incorporating the new values and table f
 
 <table>
   <tr>
+    <td>Confusion Matrix for Genre 1</td>
+    <td>Confusion Matrix for Genre 2</td>
+    <td>Confusion Matrix for Genre 3</td>
+  </tr>
+  <tr>
     <td><img src="images/confusion_matrix_1.png" alt="Confusion Matrix 1" width="300"/></td>
     <td><img src="images/confusion_matrix_2.png" alt="Confusion Matrix 2" width="300"/></td>
     <td><img src="images/confusion_matrix_3.png" alt="Confusion Matrix 3" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Confusion Matrix for Genre 4</td>
+    <td>Confusion Matrix for Genre 5</td>
+    <td>Confusion Matrix for Genre 6</td>
   </tr>
   <tr>
     <td><img src="images/confusion_matrix_4.png" alt="Confusion Matrix 4" width="300"/></td>
@@ -217,9 +228,19 @@ Below is the updated "Results" section, incorporating the new values and table f
     <td><img src="images/confusion_matrix_6.png" alt="Confusion Matrix 6" width="300"/></td>
   </tr>
   <tr>
+    <td>Confusion Matrix for Genre 7</td>
+    <td>Confusion Matrix for Genre 8</td>
+    <td>Confusion Matrix for Genre 9</td>
+  </tr>
+  <tr>
     <td><img src="images/confusion_matrix_7.png" alt="Confusion Matrix 7" width="300"/></td>
     <td><img src="images/confusion_matrix_8.png" alt="Confusion Matrix 8" width="300"/></td>
     <td><img src="images/confusion_matrix_9.png" alt="Confusion Matrix 9" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Confusion Matrix for Genre 10</td>
+    <td>Confusion Matrix for Genre 11</td>
+    <td>Confusion Matrix for Genre 12</td>
   </tr>
   <tr>
     <td><img src="images/confusion_matrix_10.png" alt="Confusion Matrix 10" width="300"/></td>
@@ -227,9 +248,19 @@ Below is the updated "Results" section, incorporating the new values and table f
     <td><img src="images/confusion_matrix_12.png" alt="Confusion Matrix 12" width="300"/></td>
   </tr>
   <tr>
+    <td>Confusion Matrix for Genre 13</td>
+    <td>Confusion Matrix for Genre 14</td>
+    <td>Confusion Matrix for Genre 15</td>
+  </tr>
+  <tr>
     <td><img src="images/confusion_matrix_13.png" alt="Confusion Matrix 13" width="300"/></td>
     <td><img src="images/confusion_matrix_14.png" alt="Confusion Matrix 14" width="300"/></td>
     <td><img src="images/confusion_matrix_15.png" alt="Confusion Matrix 15" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Confusion Matrix for Genre 16</td>
+    <td>Confusion Matrix for Genre 17</td>
+    <td>Confusion Matrix for Genre 18</td>
   </tr>
   <tr>
     <td><img src="images/confusion_matrix_16.png" alt="Confusion Matrix 16" width="300"/></td>
@@ -237,9 +268,19 @@ Below is the updated "Results" section, incorporating the new values and table f
     <td><img src="images/confusion_matrix_18.png" alt="Confusion Matrix 18" width="300"/></td>
   </tr>
   <tr>
+    <td>Confusion Matrix for Genre 19</td>
+    <td>Confusion Matrix for Genre 20</td>
+    <td>Confusion Matrix for Genre 21</td>
+  </tr>
+  <tr>
     <td><img src="images/confusion_matrix_19.png" alt="Confusion Matrix 19" width="300"/></td>
     <td><img src="images/confusion_matrix_20.png" alt="Confusion Matrix 20" width="300"/></td>
     <td><img src="images/confusion_matrix_21.png" alt="Confusion Matrix 21" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Confusion Matrix for Genre 22</td>
+    <td>Confusion Matrix for Genre 23</td>
+    <td>Confusion Matrix for Genre 24</td>
   </tr>
   <tr>
     <td><img src="images/confusion_matrix_22.png" alt="Confusion Matrix 22" width="300"/></td>
@@ -247,36 +288,33 @@ Below is the updated "Results" section, incorporating the new values and table f
     <td><img src="images/confusion_matrix_24.png" alt="Confusion Matrix 24" width="300"/></td>
   </tr>
   <tr>
+    <td>Confusion Matrix for Genre 25</td>
+    <td>Confusion Matrix for Genre 26</td>
+    <td></td>
+  </tr>
+  <tr>
     <td><img src="images/confusion_matrix_25.png" alt="Confusion Matrix 25" width="300"/></td>
     <td><img src="images/confusion_matrix_26.png" alt="Confusion Matrix 26" width="300"/></td>
+    <td></td>
   </tr>
 </table>
+
 
 ### Evaluation Metrics
 
 Below is a table summarizing the model evaluation metrics:
 
-```markdown
-+--------------------------------------+---------------------------+------------+
 | Model                                | Metric                    |      Score |
-+======================================+===========================+============+
-| Gradient Boosting Regressor          | Mean Absolute Error (MAE) |  5.94465   |
-+--------------------------------------+---------------------------+------------+
-| Gradient Boosting Regressor          | Mean Squared Error (MSE)  | 86.0554    |
-+--------------------------------------+---------------------------+------------+
-| Gradient Boosting Regressor          | R-Squared (R²)            |  0.469028  |
-+--------------------------------------+---------------------------+------------+
-| Classifier Chain (Voting Classifier) | F1 Score                  |  0.465631  |
-+--------------------------------------+---------------------------+------------+
+|--------------------------------------|---------------------------|------------|
+| Gradient Boosting Regressor          | Mean Absolute Error (MAE) |    5.94465 |
+| Gradient Boosting Regressor          | Mean Squared Error (MSE)  |   86.0554  |
+| Gradient Boosting Regressor          | R-Squared (R²)            |   0.469028 |
+| Classifier Chain (Voting Classifier) | F1 Score                  |   0.465631 |
 | Classifier Chain (Voting Classifier) | Accuracy                  |  0.120912  |
-+--------------------------------------+---------------------------+------------+
 | Classifier Chain (Voting Classifier) | Hamming Loss              |  0.0957155 |
-+--------------------------------------+---------------------------+------------+
-| Classifier Chain (Voting Classifier) | Precision                 |  0.602423  |
-+--------------------------------------+---------------------------+------------+
-| Classifier Chain (Voting Classifier) | Recall                    |  0.379466  |
-+--------------------------------------+---------------------------+------------+
-```
+| Classifier Chain (Voting Classifier) | Precision                 |   0.602423 |
+| Classifier Chain (Voting Classifier) | Recall                    |   0.379466 |
+
 
 
 ## Contributing
