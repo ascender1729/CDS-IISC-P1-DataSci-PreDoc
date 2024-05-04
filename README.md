@@ -135,13 +135,13 @@ The project involved two predictive models:
 
 #### Release Year Prediction
 
-- The Gradient Boosting Regressor achieved a mean absolute error (MAE) of X and an R-squared value (R²) of Y.
+- The Gradient Boosting Regressor achieved a mean absolute error (MAE) of  5.94465 and an R-squared value (R²) of 0.469028
 - These results indicate that the model performs reasonably well in predicting the release year.
 
 #### Genre Prediction
 
-- The Classifier Chain model achieved an F1 score of A, an accuracy of B, a precision of C, and a recall of D.
-- The Hamming loss for the model was E, showcasing the model's efficacy in multi-label classification.
+- The Classifier Chain model achieved an F1 score of 0.465631, an accuracy of 0.120912, a precision of 0.602423, and a recall of 0.379466.
+- The Hamming loss for the model was 0.0957155, showcasing the model's efficacy in multi-label classification.
   
 - Confusion matrices were generated for each genre to further analyze the model's performance.
   ![Confusion Matrix](images/confusion_matrix.png)
