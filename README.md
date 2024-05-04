@@ -33,12 +33,23 @@ This project utilizes a comprehensive dataset to analyze and predict key aspects
 
 ## Data Description
 
-The Movie Metadata dataset contains detailed information on movies, including:
+The original dataset is a comprehensive collection of metadata for movies. It contains 28 columns and 5,043 entries, each representing different aspects of a movie, such as its title, director, and financial performance. The following is a brief overview of the dataset:
 
-- **Director Name**: The name of the director.
-- **Title Year**: The year the movie was released.
-- **Genres**: The genres the movie belongs to.
-- **Gross Earnings**: The movie's gross earnings.
+- **Columns:** The dataset contains various attributes of a movie, including:
+   - `color`: Indicates whether the movie is in color or black-and-white.
+   - `director_name`: The name of the movie's director.
+   - `num_critic_for_reviews`: The number of critic reviews received.
+   - `duration`: The duration of the movie in minutes.
+   - `gross`: The gross earnings of the movie.
+   - `genres`: The genres associated with the movie.
+   - `title_year`: The year the movie was released.
+   - `imdb_score`: The IMDb rating of the movie.
+
+- **Data Quality:** Some columns contain missing values, including `color`, `director_name`, `gross`, `content_rating`, `budget`, and `title_year`.
+
+- **Data Types:** The dataset includes a mix of categorical and numerical data:
+   - Categorical columns: `color`, `director_name`, `genres`, `movie_title`, `language`, `country`, `content_rating`, and `movie_imdb_link`.
+   - Numerical columns: `num_critic_for_reviews`, `duration`, `gross`, `num_voted_users`, `cast_total_facebook_likes`, `facenumber_in_poster`, `num_user_for_reviews`, `budget`, `title_year`, `imdb_score`, `aspect_ratio`, and `movie_facebook_likes`.
 
 ## Installation
 
