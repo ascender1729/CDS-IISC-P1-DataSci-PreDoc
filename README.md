@@ -156,7 +156,7 @@ To better understand the data, various visualizations were used:
 
 
 
-### Modeling
+## Modeling
 
 The project involved two predictive models for distinct yet related objectives:
 
