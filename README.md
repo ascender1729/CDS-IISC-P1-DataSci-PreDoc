@@ -111,7 +111,7 @@ New features were engineered to enhance the predictive models:
 To better understand the data, various visualizations were used:
 
 - **Correlation Heatmap**: Showed the relationships between numerical features, helping to identify potential predictors.
-  ![Correlation Heatmap](images/correlation_heatmap.png)
+  ![Correlation Heatmap](images/heatmap.png)
 
 - **Bar Charts**: Displayed distributions of categorical data, such as director names and content ratings.
   ![Bar Chart](images/bar_chart.png)
