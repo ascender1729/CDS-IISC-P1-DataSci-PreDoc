@@ -110,14 +110,50 @@ New features were engineered to enhance the predictive models:
 
 To better understand the data, various visualizations were used:
 
-- **Correlation Heatmap**: Showed the relationships between numerical features, helping to identify potential predictors.
-  ![Correlation Heatmap](images/heatmap.png)
+<table>
+  <tr>
+    <td><b>Correlation Heatmap</b></td>
+    <td><b>Distribution Bar Graph 1</b></td>
+    <td><b>Distribution Bar Graph 2</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/heatmap.png" alt="Correlation Heatmap" width="300"/></td>
+    <td><img src="images/bar_chart_1.png" alt="Bar Chart 1" width="300"/></td>
+    <td><img src="images/bar_chart_2.png" alt="Bar Chart 2" width="300"/></td>
+  </tr>
+  <tr>
+    <td><b>Distribution Bar Graph 3</b></td>
+    <td><b>Distribution Bar Graph 4</b></td>
+    <td><b>Distribution Bar Graph 5</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/bar_chart_3.png" alt="Bar Chart 3" width="300"/></td>
+    <td><img src="images/bar_chart_4.png" alt="Bar Chart 4" width="300"/></td>
+    <td><img src="images/bar_chart_5.png" alt="Bar Chart 5" width="300"/></td>
+  </tr>
+  <tr>
+    <td><b>Scatter Plot 1</b></td>
+    <td><b>Scatter Plot 2</b></td>
+    <td><b>Scatter Plot 3</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/scatter_plot_1.png" alt="Scatter Plot 1" width="300"/></td>
+    <td><img src="images/scatter_plot_2.png" alt="Scatter Plot 2" width="300"/></td>
+    <td><img src="images/scatter_plot_3.png" alt="Scatter Plot 3" width="300"/></td>
+  </tr>
+  <tr>
+    <td><b>Scatter Plot 4</b></td>
+    <td><b>Scatter Plot 5</b></td>
+    <td><b>Scatter Plot 6</b></td>
+  </tr>
+  <tr>
+    <td><img src="images/scatter_plot_4.png" alt="Scatter Plot 4" width="300"/></td>
+    <td><img src="images/scatter_plot_5.png" alt="Scatter Plot 5" width="300"/></td>
+    <td><img src="images/scatter_plot_6.png" alt="Scatter Plot 6" width="300"/></td>
+  </tr>
+</table>
 
-- **Bar Charts**: Displayed distributions of categorical data, such as director names and content ratings.
-  ![Bar Chart](images/bar_chart.png)
 
-- **Scatter Plots**: Highlighted potential relationships between key numerical attributes, such as duration and gross earnings.
-  ![Scatter Plot](images/scatter_plot.png)
 
 ### Modeling
 
