@@ -123,7 +123,7 @@ To better understand the data, various visualizations were used:
   </tr>
   <tr>
     <td><b>Distribution of Color</b></td>
-    <td><b>Distribution pf language</b></td>
+    <td><b>Distribution of language</b></td>
     <td><b>Distribution of country</b></td>
   </tr>
   <tr>
