@@ -110,8 +110,6 @@ New features were engineered to enhance the predictive models:
 
 To better understand the data, various visualizations were used:
 
-<div style="text-align:center;">
-
 <table>
   <tr>
     <td><b>Correlation Heatmap</b></td>
@@ -125,7 +123,7 @@ To better understand the data, various visualizations were used:
   </tr>
   <tr>
     <td><b>Distribution of Color</b></td>
-    <td><b>Distribution of language</b></td>
+    <td><b>Distribution pf language</b></td>
     <td><b>Distribution of country</b></td>
   </tr>
   <tr>
@@ -136,11 +134,11 @@ To better understand the data, various visualizations were used:
   <tr>
     <td><b>Scatter Plot: duration vs gross</b></td>
     <td><b>Scatter Plot: budget vs gross</b></td>
-    <td><b>Scatter Plot: title year vs gross </b></td>
+    <td><b>Scatter Plot: title year vd gross </b></td>
   </tr>
   <tr>
     <td><img src="images/scatter_dur_gross.png" alt="Scatter Plot 1" width="300"/></td>
-    <td><img src="images/scatter_budget_gross.png" alt="Scatter Plot 2" width="300"/></td>
+    <td><img src="images/scatter_budjet_gross.png" alt="Scatter Plot 2" width="300"/></td>
     <td><img src="images/scatter_title_gross.png" alt="Scatter Plot 3" width="300"/></td>
   </tr>
   <tr>
@@ -149,13 +147,12 @@ To better understand the data, various visualizations were used:
     <td><b>Scatter Plot: actor 3 fb likes vs gross</b></td>
   </tr>
   <tr>
-    <td><img src="images/scatter_a1_fb_likes_gross.png" alt="Scatter Plot 4" width="300"/></td>
-    <td><img src="images/scatter_a2_fb_likes_gross.png" alt="Scatter Plot 5" width="300"/></td>
-    <td><img src="images/scatter_a3_fb_likes_gross.png" alt="Scatter Plot 6" width="300"/></td>
+    <td><img src="images/scatter_a1_fb_likes _gross.png" alt="Scatter Plot 4" width="300"/></td>
+    <td><img src="images/scatter_a2_fb_likes _gross.png" alt="Scatter Plot 5" width="300"/></td>
+    <td><img src="images/scatter_a3_fb_likes _gross.png" alt="Scatter Plot 6" width="300"/></td>
   </tr>
 </table>
 
-</div>
 
 
 
