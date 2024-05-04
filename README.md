@@ -53,24 +53,29 @@ The original dataset is a comprehensive collection of metadata for movies. It co
 
 ## Installation
 
+
 To set up the project locally:
 
-1. Clone the repository:
+1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/ascender1729/CDS-IISC-P1-DataSci-PreDoc.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
+
    ```bash
    cd CDS-IISC-P1-DataSci-PreDoc
    ```
 
-3. Create a virtual environment and install dependencies:
+3. **Create a virtual environment and install dependencies**:
+
    ```bash
    python -m venv env
    source env/bin/activate
    pip install -r requirements.txt
    ```
+
 
 ## Usage
 
