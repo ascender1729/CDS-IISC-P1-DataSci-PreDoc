@@ -94,17 +94,17 @@ To set up the project locally:
 
 ### Data Cleaning
 
-The dataset contained missing values in both numerical and categorical columns. The following steps were taken:
+The enhanced dataset addressed missing values in both numerical and categorical columns using the following approaches:
 
-- Numerical columns were filled with their respective median values.
-- Categorical columns were filled with their mode values, except for specific cases where a placeholder was used.
+- **Numerical columns:** Missing values were filled with their median values, maintaining the central tendency of the data.
+- **Categorical columns:** Missing values were filled with their mode values or placeholders where appropriate, depending on the context.
 
 ### Feature Engineering
 
-New features were created to enhance the predictive models:
+New features were engineered to enhance the predictive models:
 
-- Binary features for each genre were created, allowing for multi-label classification.
-- Average release intervals and average gross earnings for each director were calculated to provide insights into a director's typical behavior and success.
+- **Binary features for each genre:** Binary features were created for each genre, allowing for multi-label classification of movies based on their genres.
+- **Director-specific features:** Features such as average release intervals, average gross earnings, and intervals between consecutive releases were calculated to provide insights into a director’s typical behavior and success.
 
 ### Visualization
 
