@@ -113,8 +113,8 @@ To better understand the data, various visualizations were used:
 <table>
   <tr>
     <td><b>Correlation Heatmap</b></td>
-    <td><b>Distribution of director_name</b></td>
-    <td><b>Distribution of content_rating</b></td>
+    <td><b>Distribution of director name</b></td>
+    <td><b>Distribution of content rating</b></td>
   </tr>
   <tr>
     <td><img src="images/heatmap.png" alt="Correlation Heatmap" width="300"/></td>
@@ -132,24 +132,24 @@ To better understand the data, various visualizations were used:
     <td><img src="images/bar_country.png" alt="Bar Chart 5" width="300"/></td>
   </tr>
   <tr>
-    <td><b>Scatter Plot 1</b></td>
-    <td><b>Scatter Plot 2</b></td>
-    <td><b>Scatter Plot 3</b></td>
+    <td><b>Scatter Plot: duration vs gross</b></td>
+    <td><b>Scatter Plot: budget vs gross</b></td>
+    <td><b>Scatter Plot: title year vd gross </b></td>
   </tr>
   <tr>
-    <td><img src="images/scatter_plot_1.png" alt="Scatter Plot 1" width="300"/></td>
-    <td><img src="images/scatter_plot_2.png" alt="Scatter Plot 2" width="300"/></td>
-    <td><img src="images/scatter_plot_3.png" alt="Scatter Plot 3" width="300"/></td>
+    <td><img src="images/scatter_dur_gross.png" alt="Scatter Plot 1" width="300"/></td>
+    <td><img src="images/scatter_budjet_gross.png" alt="Scatter Plot 2" width="300"/></td>
+    <td><img src="images/scatter_title_gross.png" alt="Scatter Plot 3" width="300"/></td>
   </tr>
   <tr>
-    <td><b>Scatter Plot 4</b></td>
-    <td><b>Scatter Plot 5</b></td>
-    <td><b>Scatter Plot 6</b></td>
+    <td><b>Scatter Plot: actor 1 fb likes vs gross</b></td>
+    <td><b>Scatter Plot: actor 2 fb likes vs gross </b></td>
+    <td><b>Scatter Plot: actor 3 fb likes vs gross</b></td>
   </tr>
   <tr>
-    <td><img src="images/scatter_plot_4.png" alt="Scatter Plot 4" width="300"/></td>
-    <td><img src="images/scatter_plot_5.png" alt="Scatter Plot 5" width="300"/></td>
-    <td><img src="images/scatter_plot_6.png" alt="Scatter Plot 6" width="300"/></td>
+    <td><img src="images/scatter_a1_fb_likes _gross.png" alt="Scatter Plot 4" width="300"/></td>
+    <td><img src="images/scatter_a2_fb_likes _gross.png" alt="Scatter Plot 5" width="300"/></td>
+    <td><img src="images/scatter_a3_fb_likes _gross.png" alt="Scatter Plot 6" width="300"/></td>
   </tr>
 </table>
 
