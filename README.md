@@ -1,4 +1,4 @@
-
+![bar_conte_rating](https://github.com/ascender1729/CDS-IISC-P1-DataSci-PreDoc/assets/66913595/f8e2a055-db0e-4016-88ad-f8575d995b7a)
 # Movie Metadata Analysis
 
 The Movie Metadata Analysis project leverages machine learning to predict the release year of a director's next movie and its probable genres. The project covers extensive data cleaning, feature engineering, visualization, modeling, and evaluation.
@@ -113,23 +113,23 @@ To better understand the data, various visualizations were used:
 <table>
   <tr>
     <td><b>Correlation Heatmap</b></td>
-    <td><b>Distribution Bar Graph 1</b></td>
-    <td><b>Distribution Bar Graph 2</b></td>
+    <td><b>Distribution of director_name</b></td>
+    <td><b>Distribution of content_rating</b></td>
   </tr>
   <tr>
     <td><img src="images/heatmap.png" alt="Correlation Heatmap" width="300"/></td>
-    <td><img src="images/bar_chart_1.png" alt="Bar Chart 1" width="300"/></td>
-    <td><img src="images/bar_chart_2.png" alt="Bar Chart 2" width="300"/></td>
+    <td><img src="images/bar_director.png" alt="Bar Chart 1" width="300"/></td>
+    <td><img src="images/bar_conte_rating.png" alt="Bar Chart 2" width="300"/></td>
   </tr>
   <tr>
-    <td><b>Distribution Bar Graph 3</b></td>
-    <td><b>Distribution Bar Graph 4</b></td>
-    <td><b>Distribution Bar Graph 5</b></td>
+    <td><b>Distribution of Color</b></td>
+    <td><b>Distribution pf language</b></td>
+    <td><b>Distribution of country</b></td>
   </tr>
   <tr>
-    <td><img src="images/bar_chart_3.png" alt="Bar Chart 3" width="300"/></td>
-    <td><img src="images/bar_chart_4.png" alt="Bar Chart 4" width="300"/></td>
-    <td><img src="images/bar_chart_5.png" alt="Bar Chart 5" width="300"/></td>
+    <td><img src="images/bar_color.png" alt="Bar Chart 3" width="300"/></td>
+    <td><img src="images/bar_lang.png" alt="Bar Chart 4" width="300"/></td>
+    <td><img src="images/bar_country.png" alt="Bar Chart 5" width="300"/></td>
   </tr>
   <tr>
     <td><b>Scatter Plot 1</b></td>
