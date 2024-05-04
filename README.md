@@ -158,15 +158,35 @@ To better understand the data, various visualizations were used:
 
 ### Modeling
 
-The project involved two predictive models:
+The project involved two predictive models for distinct yet related objectives:
 
-1. **Release Year Prediction**:
-   - A Gradient Boosting Regressor was employed to predict the release year of a director's next movie.
-   - Hyperparameter tuning and cross-validation were used to optimize the model's performance.
+#### Release Year Prediction
 
-2. **Genre Prediction**:
-   - The Classifier Chain method was used for multi-label classification, leveraging ensemble methods like Random Forest and XGBoost.
-   - The model was evaluated using F1 score, accuracy, precision, recall, and Hamming loss metrics.
+To predict the release year of a director's next movie, a Gradient Boosting Regressor was utilized. This method was chosen for its ability to handle complex relationships and its effectiveness in regression tasks. The following steps were taken:
+
+1. **Feature Selection**: 
+   - The relevant features, such as `average_gross`, `average_release_interval`, and `director_facebook_likes`, were identified to focus the model on the most impactful variables.
+
+2. **Hyperparameter Tuning**:
+   - The Gradient Boosting Regressor was fine-tuned using Grid Search Cross-Validation to identify the best combination of hyperparameters.
+   - Parameters such as `n_estimators`, `max_depth`, and `learning_rate` were varied to improve the model's predictive performance.
+
+3. **Cross-Validation**:
+   - The model's robustness was tested using cross-validation, ensuring that the selected hyperparameters provided consistent performance across different data subsets.
+
+#### Genre Prediction
+
+For the multi-label classification task of predicting a movie's genres, the Classifier Chain method was employed. This method enables chaining together classifiers to handle multiple labels simultaneously. The approach included the following steps:
+
+1. **Model Selection**:
+   - The Classifier Chain was combined with a Voting Classifier, which used ensemble methods like Random Forest and XGBoost. This ensemble approach leverages the strengths of both models to improve overall performance.
+
+2. **Training**:
+   - The Voting Classifier was trained using the `soft` voting strategy, which considers the probability outputs of each model to make final predictions. This approach often results in higher accuracy, particularly for multi-label problems.
+
+3. **Evaluation**:
+   - The Classifier Chain was evaluated using several key metrics, including F1 score, accuracy, precision, recall, and Hamming loss.
+   - These metrics provided a comprehensive view of the model's effectiveness in predicting multiple genres simultaneously.
 
 ### Results
 
