@@ -1,4 +1,4 @@
-![bar_conte_rating](https://github.com/ascender1729/CDS-IISC-P1-DataSci-PreDoc/assets/66913595/f8e2a055-db0e-4016-88ad-f8575d995b7a)
+
 # Movie Metadata Analysis
 
 The Movie Metadata Analysis project leverages machine learning to predict the release year of a director's next movie and its probable genres. The project covers extensive data cleaning, feature engineering, visualization, modeling, and evaluation.
