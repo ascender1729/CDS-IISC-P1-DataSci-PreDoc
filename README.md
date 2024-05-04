@@ -188,20 +188,96 @@ For the multi-label classification task of predicting a movie's genres, the Clas
    - The Classifier Chain was evaluated using several key metrics, including F1 score, accuracy, precision, recall, and Hamming loss.
    - These metrics provided a comprehensive view of the model's effectiveness in predicting multiple genres simultaneously.
 
+Below is the updated "Results" section, incorporating the new values and table for the evaluation metrics. Additionally, the section contains the necessary HTML to display all 26 confusion matrix images for the different genres.
+
 ### Results
 
-#### Release Year Prediction
+### Release Year Prediction
 
-- The Gradient Boosting Regressor achieved a mean absolute error (MAE) of  5.94465 and an R-squared value (R²) of 0.469028
+- The Gradient Boosting Regressor achieved a mean absolute error (MAE) of 5.94465 and an R-squared value (R²) of 0.469028.
+- The model's cross-validation scores varied between 0.33920605 and 0.46901381, with a mean score of 0.40512641961070217.
 - These results indicate that the model performs reasonably well in predicting the release year.
 
-#### Genre Prediction
+### Genre Prediction
 
 - The Classifier Chain model achieved an F1 score of 0.465631, an accuracy of 0.120912, a precision of 0.602423, and a recall of 0.379466.
 - The Hamming loss for the model was 0.0957155, showcasing the model's efficacy in multi-label classification.
   
-- Confusion matrices were generated for each genre to further analyze the model's performance.
-  ![Confusion Matrix](images/confusion_matrix.png)
+- Confusion matrices were generated for each genre to further analyze the model's performance. The visualizations are presented below:
+
+<table>
+  <tr>
+    <td><img src="images/confusion_matrix_1.png" alt="Confusion Matrix 1" width="300"/></td>
+    <td><img src="images/confusion_matrix_2.png" alt="Confusion Matrix 2" width="300"/></td>
+    <td><img src="images/confusion_matrix_3.png" alt="Confusion Matrix 3" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_4.png" alt="Confusion Matrix 4" width="300"/></td>
+    <td><img src="images/confusion_matrix_5.png" alt="Confusion Matrix 5" width="300"/></td>
+    <td><img src="images/confusion_matrix_6.png" alt="Confusion Matrix 6" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_7.png" alt="Confusion Matrix 7" width="300"/></td>
+    <td><img src="images/confusion_matrix_8.png" alt="Confusion Matrix 8" width="300"/></td>
+    <td><img src="images/confusion_matrix_9.png" alt="Confusion Matrix 9" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_10.png" alt="Confusion Matrix 10" width="300"/></td>
+    <td><img src="images/confusion_matrix_11.png" alt="Confusion Matrix 11" width="300"/></td>
+    <td><img src="images/confusion_matrix_12.png" alt="Confusion Matrix 12" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_13.png" alt="Confusion Matrix 13" width="300"/></td>
+    <td><img src="images/confusion_matrix_14.png" alt="Confusion Matrix 14" width="300"/></td>
+    <td><img src="images/confusion_matrix_15.png" alt="Confusion Matrix 15" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_16.png" alt="Confusion Matrix 16" width="300"/></td>
+    <td><img src="images/confusion_matrix_17.png" alt="Confusion Matrix 17" width="300"/></td>
+    <td><img src="images/confusion_matrix_18.png" alt="Confusion Matrix 18" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_19.png" alt="Confusion Matrix 19" width="300"/></td>
+    <td><img src="images/confusion_matrix_20.png" alt="Confusion Matrix 20" width="300"/></td>
+    <td><img src="images/confusion_matrix_21.png" alt="Confusion Matrix 21" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_22.png" alt="Confusion Matrix 22" width="300"/></td>
+    <td><img src="images/confusion_matrix_23.png" alt="Confusion Matrix 23" width="300"/></td>
+    <td><img src="images/confusion_matrix_24.png" alt="Confusion Matrix 24" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/confusion_matrix_25.png" alt="Confusion Matrix 25" width="300"/></td>
+    <td><img src="images/confusion_matrix_26.png" alt="Confusion Matrix 26" width="300"/></td>
+  </tr>
+</table>
+
+### Evaluation Metrics
+
+Below is a table summarizing the model evaluation metrics:
+
+```markdown
++--------------------------------------+---------------------------+------------+
+| Model                                | Metric                    |      Score |
++======================================+===========================+============+
+| Gradient Boosting Regressor          | Mean Absolute Error (MAE) |  5.94465   |
++--------------------------------------+---------------------------+------------+
+| Gradient Boosting Regressor          | Mean Squared Error (MSE)  | 86.0554    |
++--------------------------------------+---------------------------+------------+
+| Gradient Boosting Regressor          | R-Squared (R²)            |  0.469028  |
++--------------------------------------+---------------------------+------------+
+| Classifier Chain (Voting Classifier) | F1 Score                  |  0.465631  |
++--------------------------------------+---------------------------+------------+
+| Classifier Chain (Voting Classifier) | Accuracy                  |  0.120912  |
++--------------------------------------+---------------------------+------------+
+| Classifier Chain (Voting Classifier) | Hamming Loss              |  0.0957155 |
++--------------------------------------+---------------------------+------------+
+| Classifier Chain (Voting Classifier) | Precision                 |  0.602423  |
++--------------------------------------+---------------------------+------------+
+| Classifier Chain (Voting Classifier) | Recall                    |  0.379466  |
++--------------------------------------+---------------------------+------------+
+```
+
 
 ## Contributing
 
